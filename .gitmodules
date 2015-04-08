@@ -1,0 +1,3 @@
+[submodule "C-shuffle/threadpool"]
+	path = C-shuffle/threadpool
+	url = git@github.com:chichilalescu/threadpool.git
