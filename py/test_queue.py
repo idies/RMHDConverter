@@ -30,7 +30,7 @@ def main():
         dst_dir = 'scratch_folder',
         ready_to_start_pattern = 'queue_files/created_t{0}',
         job_done_pattern = 'queue_files/converted_t{0}',
-        space_needed = 1024**3,
+        space_needed = 1024**2,
         announce_folder = 'queue_files')
     ofile_list = c.get_ofile_list(field = 'u')
     nfiles = len(ofile_list)
